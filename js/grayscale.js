@@ -26,7 +26,7 @@
     offset: 100
   });
 
-  // Collapse Navbar
+   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
@@ -40,3 +40,4 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+

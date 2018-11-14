@@ -29,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Shilapat</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: green">Shilapat</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -55,12 +55,63 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Shilapat</h1>
+        <h1 class="mx-auto my-0 text-uppercase" style="color: yellow"  >Shilapat</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-danger js-scroll-trigger">Order Now</a>
+        <a href="#about" class="btn btn-warning js-scroll-trigger">Quick Order</a>
+        <a href="#projects" class="btn btn-danger js-scroll-trigger">Browse Products</a>
       </div>
     </div>
   </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-4 col-lg-4 col-sm-4">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <div class="row justify-content-between">
+              <div class="col-5">
+                <h4>Shilapat 1</h4>
+              </div>
+              <div class="col-2">
+                <a href="#about" id="product_1" class="btn btn-danger js-scroll-trigger"> 200 INR Order Now</a>
+              </div>
+
+            </div>
+            <p class="text-black-50 mb-0">Shilapat</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Project Row 2 -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-4 col-lg-4 col-sm-4">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <div class="row justify-content-between">
+                <div class="col-5">
+                  <h4>Shilapat 1</h4>
+                </div>
+                <div class="col-2">
+                  <a href="#about"id="product_2" class="btn btn-danger js-scroll-trigger"> 200 INR Order Now</a>
+                </div>
+  
+              </div>
+              <p class="text-black-50 mb-0">Shilapat</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">
@@ -68,22 +119,46 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">Place order</h2>
-          <form id="Login">
+          <form id="Login" class="">
 
             <div class="form-group">
-              <input type="number" class="form-control" id="inputEmail" placeholder="Enter Phone No">
+              <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                  <input type="text" class=" form-control" id="inputName" placeholder="Enter Name">
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                  <input type="number" class="form-control" id="inputEmail" placeholder="Enter Phone No">
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
-              <input type="text" class="form-control" id="inputEmail" placeholder="District">
+              <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                  <input type="text" class="form-control" id="inputDistrict" placeholder="District">
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                  <input type="text" class="form-control" id="inputBlock" placeholder="Block">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group">
             </div>
 
             <div class="form-group">
-              <input type="number" class="form-control" id="inputEmail" placeholder="Panchayat">
+              <input type="text" class="form-control" id="inputPanchayat" placeholder="Panchayat">
             </div>
 
+
             <div class="form-group">
-              <select type="password" class="form-control" id="inputPassword" placeholder="type of shilapat">
+              <textarea type="text" class="form-control" id="inputAddress" placeholder="Delivery Address"></textarea>
+            </div>
+
+
+            <div class="form-group">
+              <select type="text" class="form-control" id="inputProduct" placeholder="type of shilapat">
                 <option>
                   Shilapat 1
                 </option>
@@ -97,43 +172,9 @@
 
           </form>
 
-          <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
         </div>
       </div>
       <img src="img/ipad.png" class="img-fluid" alt="">
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
-    <div class="container">
-
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shilapat 1</h4>
-            <p class="text-black-50 mb-0">Shilapat</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Featured Project Row 2 -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shilapat 1</h4>
-            <p class="text-black-50 mb-0">Shilapat</p>
-          </div>
-        </div>
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
-      </div>
-
     </div>
   </section>
 
