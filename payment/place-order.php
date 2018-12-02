@@ -11,6 +11,10 @@ $p_details = array();
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+} 
 
 // get the product details and set them in the  below form
 $product_id = $_GET['p_id'];
